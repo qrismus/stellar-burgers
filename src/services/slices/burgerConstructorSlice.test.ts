@@ -3,14 +3,11 @@ import { TIngredient } from '@utils-types';
 import burgerConstructorReducer, {
   addIngredient,
   removeIngredient,
-  resetConstructor
+  resetConstructor, 
+  initialState
 } from './burgerConstructorSlice';
 
 describe('tests', () => {
-  const initialState: TBurgerConstructorState = {
-    bun: null,
-    ingredients: []
-  };
   const stateWithData: TBurgerConstructorState = {
     bun: {
       id: '643d69a5c3f7b9001cfa093c',
