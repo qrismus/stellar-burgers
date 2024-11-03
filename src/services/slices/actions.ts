@@ -7,7 +7,7 @@ import {
   logoutApi,
   getUserApi,
   updateUserApi
-} from '@api';
+} from '../../utils/burger-api';
 import { AppDispatch } from '../store';
 import { deleteCookie, setCookie } from '../../utils/cookie';
 import { setIsAuthChecked, setUser } from '../slices/userSlice';

@@ -12,7 +12,7 @@ export interface TUserState {
   user: TUser | null;
 }
 
-const initialState: TUserState = {
+export const initialState: TUserState = {
   isAuthChecked: false,
   user: null
 };
